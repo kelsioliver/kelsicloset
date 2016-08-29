@@ -15,6 +15,16 @@
     height:85px;
 }
 
+.background{
+    background-image: url ("background.jpg");
+}
+
+.about-text{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-size:40px; 
+}
+
 #choose-1, #choose-2{
     text-transform:uppercase;
 }
