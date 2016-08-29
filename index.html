@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kelsi's Closet</title>
+		    <link rel="stylesheet" type="text/css" href="css/reset.css">
+            <link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+            <script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	</head>
+<body class="main">
+    <nav class="header">
+    	<p class="header-box">Kelsi's Closet</p> 
+        <ul>
+            <li class="menu-list clearfix">About</li>
+        </ul>
+    </nav>
+
+    <main>
+    <div class="float-1">
+        <div class="button-1">
+            <p>Select a top you'd like to wear with one of my bottoms!</p>
+            <button id="choose-1">Choose!</button>
+        </div>
+
+         <div class="button-2">
+            <p>Select a bottom you'd like to wear with one of my tops!</p>
+            <button id="choose-2">Choose!</button>
+        </div>
+    </div>
+
+    <div class="float-2">
+        <div class="carousel-container">
+    	   <section class="box1" data-flickity>
+        	   <img src="images/blackstripes.png" alt="blackstripe" data-clothing="black-white-patternpants">
+                <img src="images/bluestripes.png" alt="bluestripe" data-clothing="blue-white-polkadotskirt">
+                <img src="images/croptop.png" alt="croptop" data-clothing="crop-floralpants">
+                <img src="images/pinkoxford.png" alt="pinkoxford" data-clothing="oxford-acidwash">
+                <img src="images/blueoffshoulder.png" alt="blueoffshoulder" data-clothing="bluetop-purplepants">
+            </section>
+            <div class="empty"></div>
+
+    	   <section class="box2" data-flickity>
+        	   <img src="images/acidwash.png" alt="acidwash" data-clothing="oxford-acidwash">
+                <img src="images/bluejeans.png" alt="bluejeans">
+                <img src="images/purplepants.png" alt="purplepants"
+                data-clothing="bluetop-purplepants">
+                <img src="images/polkadotskirt.png" alt="polkadotskirt" data-clothing="blue-white-polkadot">
+                <img src="images/floralpants.png" alt="floralpants" data-clothing="crop-floralpants">
+                <img src="images/patternpants.png" alt="patternpants" data-clothing="black-white-patternpants">
+    	   </section>
+        </div>
+    </div>
+
+    <div class="float-3">
+        <div class="button-3">
+            <p>Click this button to see if they match.</p>
+            <button id="match">DRESS ME!</button>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <section class="footer"></section>
+        <section></section>
+        <section></section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
