@@ -11,12 +11,23 @@
     color:white;
 }
 
+a{
+    text-decoration:none;
+    color:white;
+}
+
 .header{
     height:85px;
 }
 
 .background{
-    background-image: url ("background.jpg");
+    background-image:url("background.jpg");
+    background-size:cover;
+    height:1000px;
+    background-position:center;
+    background-repeat: no-repeat;
+    color:white;
+    display:block;
 }
 
 .about-text{
