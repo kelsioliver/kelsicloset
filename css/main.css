@@ -20,14 +20,9 @@ a{
     height:85px;
 }
 
-.background{
-    background-image:url("background.jpg");
-    background-size:cover;
-    height:1000px;
-    background-position:center;
-    background-repeat: no-repeat;
-    color:white;
-    display:block;
+.about-content{
+    background:url("../background.jpg");
+    height:100vh;
 }
 
 .about-text{
@@ -138,11 +133,6 @@ a{
     width:99%;
 }
 
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+.clearfix {
+    clear:both;
 }
