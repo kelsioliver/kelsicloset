@@ -122,12 +122,14 @@ a{
     border:1px solid black;
     width:75%;
     margin:0 auto;
+    min-height:250px;
 }
 
 .box2{
     border:1px solid black;
     width:75%;
     margin:0 auto;
+    min-height:500px;
 }
 
 .empty{
