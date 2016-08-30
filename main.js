@@ -1,4 +1,15 @@
+	$('.box1').flickity({
+  // options
+  wrapAround: true
+});
+
+	$('.box2').flickity({
+  // options
+  wrapAround:true
+});
+
 $("document").ready(function(){	
+
 	var topSelected =false;
 
 	var bottomSelected =false;
