@@ -22,7 +22,13 @@ a{
 
 .about-content{
     background:url("../background.jpg");
-    height:100vh;
+    height:165vh;
+    background-repeat: none;
+}
+
+.about-box{
+    margin:30px;
+    margin-left:800px;
 }
 
 .about-text{
