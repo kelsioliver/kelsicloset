@@ -19,7 +19,8 @@ a{
 }
 
 .header{
-    height:85px;
+    height:170px;
+    background-color:black;
 }
 
 .about-text{
@@ -43,7 +44,6 @@ a{
     font-size:40px;
     text-align:center;
     padding: 45px 0;
-    background-color:black;
     height:100px;
     letter-spacing:10px;
     text-transform:uppercase;
@@ -57,12 +57,16 @@ a{
 
 .main-about{
     font-family: sans-serif;
-    height: 700px;
-    background-size:cover;
-    background-position:center;
     color:white;
     display:block;
+    background-color:pink;
 }
+
+.background{
+    background-size:cover;
+    background-position:center;
+}
+
 .float-1{
     float:left;
     width:25%;
