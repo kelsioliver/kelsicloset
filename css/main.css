@@ -1,3 +1,5 @@
+
+
 .menu-list{
     float:right;
     width:10%;
@@ -20,21 +22,15 @@ a{
     height:85px;
 }
 
-.about-content{
-    background:url("../background.jpg");
-    height:165vh;
-    background-repeat: none;
-}
-
-.about-box{
-    margin:30px;
-    margin-left:800px;
-}
-
 .about-text{
     font-family: 'Raleway', sans-serif;
     color:white;
     font-size:40px; 
+    display:inline-block;
+    margin-left:65%;
+    width:30%;
+    padding:0 0 5% 0;
+    margin-right:5%;
 }
 
 #choose-1, #choose-2{
@@ -55,9 +51,18 @@ a{
 
 .main{
     font-family: sans-serif;
-    background-color:pink;
+    height: 500px
+    background-color:pink;  
 }
 
+.main-about{
+    font-family: sans-serif;
+    height: 700px;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    display:block;
+}
 .float-1{
     float:left;
     width:25%;
@@ -122,14 +127,12 @@ a{
     border:1px solid black;
     width:75%;
     margin:0 auto;
-    min-height:250px;
 }
 
 .box2{
     border:1px solid black;
     width:75%;
     margin:0 auto;
-    min-height:500px;
 }
 
 .empty{
@@ -141,6 +144,11 @@ a{
     width:99%;
 }
 
-.clearfix {
-    clear:both;
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
