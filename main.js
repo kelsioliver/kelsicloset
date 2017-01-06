@@ -1,3 +1,27 @@
+gh-pages
+	$('.box1').flickity({
+  // options
+  wrapAround: true
+});
+
+	$('.box2').flickity({
+  // options
+  wrapAround:true
+});
+
+$("document").ready(function(){	
+
+	var topSelected =false;
+
+	var bottomSelected =false;
+
+	var top = "";
+
+	var bottom = "";
+
+	$("#choose-1").click(function(){ 
+		top = $(".box1").find(".is-selected").attr("data-clothing");
+
 $("document").ready(function(){
 	// 1- Set varibles so that they are global to the all parts of the function
 	var topSelected = false;
@@ -7,6 +31,7 @@ $("document").ready(function(){
 	// 2- Choose top
 	$("#choose-1").click(function(){
 		top = $("#box1 .is-selected").attr("data-clothing");
+master
 		topSelected = true;
 		console.log(top);
 		console.log(topSelected);
